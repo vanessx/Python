@@ -1,2 +1,2 @@
 name = input('What\'s your name? ')
-print('Hello,', name.capitalize())
+print('Hello,', name.capitalize(), end="!")
