@@ -1,0 +1,3 @@
+n = input('Write your full name: ').strip()
+name = n.split()
+print(name[0], name[-1]) # -1 para se referir ao último elemento da lista, -2 seria o penúltimo e por aí...
