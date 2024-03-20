@@ -5,4 +5,4 @@ if km <= 200:
 else:
     cost = km * 0.45
 
-print(f'The cost is {cost:.2f}€')
+print(f'The cost is \033[31m{cost:.2f}€\033[m') # a cor de texto em vermelho
