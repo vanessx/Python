@@ -12,7 +12,7 @@ c = int(input('Third line: '))
 
 if a < b + c and b < a + c and c < a + b:
     print(colors['green'],'You can form a triangle.', colors['close'])
-    if a == b and b == c:
+    if a == b and b == c: # could also be a == b == c
         print('Is an equilateral triangle.')
     elif a == b or b == c or a == c:
         print('Is an isosceles triangle.')
