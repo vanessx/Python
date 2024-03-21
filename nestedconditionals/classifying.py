@@ -11,7 +11,7 @@ elif years_old <= 14:
     print('INFANTILE')
 elif years_old <= 19:
     print('JUNIOR')
-elif years_old <= 20:
+elif years_old <= 25:
     print('SENIOR')
 else:
     print('MASTER')
