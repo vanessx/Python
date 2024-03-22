@@ -26,5 +26,7 @@ elif payment == 4:
     ins = int(input(f'{background['purple']}How many instalments do you want?{colors['close']} '))
     instalments = total / ins
     print(f'\033[7mYou will pay {instalments:.2f} in {ins}x.\033[m')
+else:
+    print('ERROR. Try again.')
 
 print(f'\033[7mThe total to pay is {total:.2f}€\033[m')
