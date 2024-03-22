@@ -13,7 +13,7 @@ product = float(input('Product price: '))
 payment = int(input(f'''{background['red']}Cash payment{colors['close']} {colors['red']}[press 1]{colors['close']}
 {background['cyan']}Payment by card{colors['close']} {colors['cyan']}[press 2]{colors['close']}
 {background['green']}Double payment by card{colors['close']} {colors['green']}[press 3]{colors['close']}
-{background['purple']}Triple payment or more by card{colors['close']} {colors['purple']}[press 4]{colors['close']}'''))
+{background['purple']}Triple payment or more by card{colors['close']} {colors['purple']}[press 4]{colors['close']} '''))
 
 if payment == 1:
     total = product - (product * 0.10)
@@ -23,5 +23,8 @@ elif payment == 3:
     total = product
 elif payment == 4:
     total = product + (product * 0.20)
+    ins = int(input(f'{background['purple']}How many instalments do you want?{colors['close']} '))
+    instalments = total / ins
+    print(f'\033[7mYou will pay {instalments:.2f} in {ins}x.\033[m')
 
 print(f'\033[7mThe total to pay is {total:.2f}€\033[m')
