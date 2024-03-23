@@ -2,7 +2,7 @@ sum = 0
 count = 0
 
 for c in range(1, 7):
-    num = int(input('Number: '))
+    num = int(input(f'Number {c}: '))
     if num % 2 == 0:
         sum += num
         count += 1
