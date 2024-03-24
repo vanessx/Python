@@ -5,8 +5,7 @@ if phrase == phrase[:: -1]:  # -1 quer dizer que volta para trás
 else:
     print('It is not a polindrome.')
 
-
-# se usasse um loop for
+# se usasse um for loop
 """
 for c in range(len(phrase) -1, -1. -1):
 """
