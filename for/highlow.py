@@ -3,7 +3,7 @@ lower = 0
 
 for w in range(1, 6):
     weight = float(input(f'What is the weight of the {w}° person: '))
-    if w == 1:
+    if w == 1: # atribui ao primeiro valor o maior e o menor
         higher = weight
         lower = weight
     else:
