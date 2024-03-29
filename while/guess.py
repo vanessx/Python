@@ -1,7 +1,6 @@
 from random import randint
 
 count = 1
-
 num = randint(1, 10)  # um número aleatório de 1 a 10
 print('-=-' * 20)
 guess = int(
