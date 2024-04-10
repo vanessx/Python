@@ -1,4 +1,5 @@
 count_age = count_men = count_women_less20 = 0
+
 while True:
     age = int(input('Age: '))
     gender = input('Gender [F/M]: ').lower().strip()
