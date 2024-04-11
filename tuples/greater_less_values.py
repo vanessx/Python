@@ -16,3 +16,6 @@ for number in numbers:
         less = number
 
 print(f'{greater} is the greater and {less} is the less one.')
+
+# solução mais simples
+print(f'The greater is {max(numbers)} and the less is {min(numbers)}.')
