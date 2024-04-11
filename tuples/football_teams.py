@@ -18,4 +18,4 @@ for team in sorted(teams):
 for pos, team in enumerate(teams):
     if team == 'porto':
         print(f'\n{team.title()} is in position {pos + 1}.')
-    
+        
