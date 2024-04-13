@@ -15,7 +15,6 @@ for number in numbers:
     else:
         odd.append(number)
 
-
 print(numbers)
 print(even)
 print(odd)
