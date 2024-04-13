@@ -1,8 +1,7 @@
 numbers = []
 
 while True:
-    num = int(input('Type a number: '))
-    numbers.append(num)
+    numbers.append(int(input('Type a number: ')))
     repeat = input('Do you want to continue? [Y/N]: ').lower()
     if repeat == 'n':
         break
