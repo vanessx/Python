@@ -1,5 +1,5 @@
 matrix = [[0, 0, 0], [0, 0, 0], [0, 0, 0]]
-total = greater = sumcol = 0
+total = sumcol = 0
 
 for l in range(0, 3):
     for c in range (0, 3): # linha zero coluna 1, 2, 3 -> linha 1 coluna 1, 2, 3...
