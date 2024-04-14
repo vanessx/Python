@@ -16,4 +16,5 @@ for l in range(0, 3):
     sumcol += matrix[l][2] # na linha zero pega o valor na posiçao 2, na linha um pega o valor na posiçao 2...
 
 print(f'The sum of even numbers is: {total}\n'
-      f'The sum of the numbers in the third column is: {sumcol}')
+      f'The sum of the numbers in the third column is: {sumcol}\n'
+      f'The greater number in the second line is: {max(matrix[1])}')
